@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.bird{
+    position: absolute;
+    background-image: url('bird.png');
+    background-size: cover;
+    height: 60px;
+    width: 80px;
+    z-index: 2;
+}
+.full{
+    width: 100vw;
+    height: 100vh;
+}
+.upper{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-image: url("bg.png");
+    background-size: cover;
+}
+.bottom{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-image:url('bottom.jpg');
+    z-index: 12;
+    top:80%
+}
+.downbar{
+    background-image: url('downbar.png');
+    background-size: cover;
+    width:60px;
+    height:300px;
+    position: absolute;
+    z-index: 10;
+}
+.topbar{
+    background-image: url('upbar.png');
+    background-size: cover;
+    width:60px;
+    height:300px;
+    position: absolute;
+    z-index: 10;
+}
